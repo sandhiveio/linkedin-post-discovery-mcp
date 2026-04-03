@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "linkedin-post-discovery-apify-hosted": {
+      "command": "npx",
+      "args": [
+        "mcp-remote",
+        "https://mcp.apify.com",
+        "--header",
+        "Authorization: Bearer ${APIFY_TOKEN}"
+      ]
+    }
+  }
+}

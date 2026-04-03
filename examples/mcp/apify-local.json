@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "linkedin-post-discovery-local": {
+      "command": "node",
+      "args": ["dist/index.js"],
+      "env": {
+        "PROVIDER": "apify",
+        "APIFY_TOKEN": "${APIFY_TOKEN}",
+        "APIFY_ACTOR_ID": "sandhive/linkedin-posts-parser"
+      }
+    }
+  }
+}

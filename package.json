@@ -1,0 +1,30 @@
+{
+  "name": "linkedin-post-discovery-mcp",
+  "version": "0.1.0",
+  "description": "LinkedIn post discovery/search MCP for recruiting, lead generation, and market research.",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/index.js",
+    "dev": "tsx src/index.ts",
+    "check": "tsc --noEmit"
+  },
+  "keywords": [
+    "mcp",
+    "linkedin",
+    "rapidapi",
+    "apify"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1",
+    "dotenv": "^16.4.5",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.2",
+    "tsx": "^4.19.2",
+    "typescript": "^5.8.3"
+  }
+}

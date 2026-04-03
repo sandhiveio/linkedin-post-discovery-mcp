@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "linkedin-post-discovery-rapidapi": {
+      "command": "npx",
+      "args": [
+        "mcp-remote",
+        "https://mcp.rapidapi.com",
+        "--header",
+        "x-api-host: ${RAPIDAPI_HOST}",
+        "--header",
+        "x-api-key: ${RAPIDAPI_KEY}"
+      ]
+    }
+  }
+}
